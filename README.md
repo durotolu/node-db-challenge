@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+RDB are Databases that store information in tabular structures while SQL is a language for interacting with databases
+
 - [ ] Why do tables need a `primary key`?
+
+To uniquely identify each record
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foreign key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+1 to many relationship on each table to the other
 
 ## Minimum Viable Product
 
