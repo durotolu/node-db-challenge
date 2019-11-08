@@ -16,6 +16,7 @@ router.post('/', (req, res) => {
 router.get('/', (req, res) => {
     Resources.getResources()
         .then(resources => {
+            resources.map(resource => (resource.completed===0) ? resource.completed= false: resource.completed= true)
             res.json(resources)
         })
         .catch(err =>{
